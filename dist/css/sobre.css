@@ -1,0 +1,22 @@
+.sobre {
+  padding-bottom: 100px;
+}
+.sobre__title {
+  font-size: 47px;
+  color: white;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.sobre__title span {
+  border-bottom: 5px solid white;
+  padding-bottom: 10px;
+}
+.sobre__text {
+  font-size: 16px;
+  line-height: 1.7rem;
+  color: rgba(255, 255, 255, 0.825);
+  width: 80%;
+  text-align: center;
+  padding-left: 18%;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,36 @@
+@use 'variaveis';
+.lancamentos{
+  padding:30px 0px;
+  background-color:variaveis.$cordDeFundo;
+  &__filmes{
+    font-size: 20px;
+    padding:30px 18%;
+    p{
+      padding-bottom: 30px;
+    }
+   
+    a{
+      border-left: 4px solid white;
+      padding-left:8px;
+      text-decoration: none;
+      color: red;
+    }
+    span{
+      padding-right: 8px;
+      color: white;
+    }
+  }
+  &__list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    padding-bottom: 50px;
+    &__item{
+      width: 100%;
+      img{
+     width: 400px;
+      }
+    }
+  }
+}

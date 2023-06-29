@@ -1,0 +1,33 @@
+.section {
+  position: relative;
+  padding-bottom: 100PX;
+}
+.section__video {
+  width: 100%;
+  height: 100%;
+}
+.section__video img {
+  width: 100%;
+}
+.section__text {
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+.section__text a {
+  text-decoration: none;
+  display: flex;
+  color: white;
+}
+.section__text a:hover {
+  color: rgba(255, 255, 255, 0.5215686275);
+}
+.section__text a .material-symbols-outlined {
+  font-size: 50px;
+}
+.section__text a .span2 {
+  font-size: 30px;
+  padding-left: 10px;
+  text-decoration: underline;
+}

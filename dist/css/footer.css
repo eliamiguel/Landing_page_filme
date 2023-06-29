@@ -1,0 +1,14 @@
+.footer {
+  padding: 0px 0px 80px;
+  margin-left: 18%;
+}
+.footer__text {
+  color: rgba(255, 255, 255, 0.56);
+  text-align: normal;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+.footer__text a {
+  color: rgba(255, 255, 255, 0.56);
+  margin-left: 5px;
+}

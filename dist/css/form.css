@@ -1,0 +1,33 @@
+.formulario {
+  padding: 60px 0px 100px;
+}
+.formulario .form {
+  border-left: 3px solid white;
+  margin-left: 18%;
+  padding-left: 40px;
+}
+.formulario .form__email {
+  font-size: 80px;
+  padding-bottom: 20px;
+  color: white;
+  display: block;
+}
+.formulario .form #email {
+  margin-right: 8px;
+  padding: 18px;
+  width: 500px;
+  font-size: 16px;
+  font-size: 20;
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+}
+.formulario .form button {
+  padding: 18px;
+  font-size: 16px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
