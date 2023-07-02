@@ -12,9 +12,10 @@
     margin-left: 18%;
     padding-left: 40px;
     @media (max-width:768px){
-      border-left: 2px solid variaveis.$cordDosTextos;
-      margin-left: 10%;
-      padding-left: 20px;
+      border-left: none;
+      margin-left: 0;
+      margin: auto;
+      
     
     }
   
@@ -24,8 +25,9 @@
     color: variaveis.$cordDosTextos;
     display:block;
     @media (max-width:768px){
-      font-size: 40px;
-      padding-bottom: 15px;
+      font-size: 50px;
+      text-align: center;
+      padding-bottom: 20px;
     
     }
     
@@ -35,13 +37,13 @@
     padding: 18px;
     width: 500px;
     font-size: 16px;
-    font-size: 20;
+    font-size: 20px;
     color: variaveis.$cordDosTextos;
     border:3px solid variaveis.$cordDosTextos;
     background-color: transparent;
     @media (max-width:768px){
-      width: 250px;
-      padding: 9px; 
+      width: 90%;
+      padding: 18px; 
       display: block;
       margin-bottom: 8px;
     }
@@ -56,8 +58,8 @@
     background-color: transparent;
     cursor: pointer;
     @media (max-width:768px){
-      padding: 10px;
-      font-size: 13px;
+     width: 90%;
+     font-size: 20px;
     
     }
     

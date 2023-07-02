@@ -5,8 +5,8 @@
 @media (max-width: 768px) {
   .footer {
     text-align: center;
-    margin-left: 0;
-    text-align: center;
+    padding-left: 0;
+    align-items: center;
     padding-bottom: 40px;
   }
 }
@@ -14,11 +14,12 @@
   color: rgba(255, 255, 255, 0.56);
   text-align: normal;
   font-size: 18px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05rem;
 }
 @media (max-width: 768px) {
   .footer__text {
-    font-size: 10px;
+    font-size: 18px;
+    padding: 0 24px;
   }
 }
 .footer__text a {

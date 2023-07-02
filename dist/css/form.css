@@ -13,9 +13,9 @@
 }
 @media (max-width: 768px) {
   .formulario .form {
-    border-left: 2px solid white;
-    margin-left: 10%;
-    padding-left: 20px;
+    border-left: none;
+    margin-left: 0;
+    margin: auto;
   }
 }
 .formulario .form__email {
@@ -26,8 +26,9 @@
 }
 @media (max-width: 768px) {
   .formulario .form__email {
-    font-size: 40px;
-    padding-bottom: 15px;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
   }
 }
 .formulario .form #email {
@@ -35,15 +36,15 @@
   padding: 18px;
   width: 500px;
   font-size: 16px;
-  font-size: 20;
+  font-size: 20px;
   color: white;
   border: 3px solid white;
   background-color: transparent;
 }
 @media (max-width: 768px) {
   .formulario .form #email {
-    width: 250px;
-    padding: 9px;
+    width: 90%;
+    padding: 18px;
     display: block;
     margin-bottom: 8px;
   }
@@ -59,8 +60,8 @@
 }
 @media (max-width: 768px) {
   .formulario .form button {
-    padding: 10px;
-    font-size: 13px;
+    width: 90%;
+    font-size: 20px;
   }
 }
 .formulario .form__text {

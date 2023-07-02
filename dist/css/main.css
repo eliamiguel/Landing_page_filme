@@ -65,7 +65,6 @@
 }
 .lancamentos__list__item img {
   width: 100%;
-  height: 100%;
   border-radius: 8px;
 }
 .lancamentos .material-symbols-outlined {
@@ -176,7 +175,7 @@
 }
 @media (max-width: 768px) {
   .section__text a .span2 {
-    font-size: 19px;
+    font-size: 25px;
   }
 }
 
@@ -195,9 +194,9 @@
 }
 @media (max-width: 768px) {
   .formulario .form {
-    border-left: 2px solid white;
-    margin-left: 10%;
-    padding-left: 20px;
+    border-left: none;
+    margin-left: 0;
+    margin: auto;
   }
 }
 .formulario .form__email {
@@ -208,8 +207,9 @@
 }
 @media (max-width: 768px) {
   .formulario .form__email {
-    font-size: 40px;
-    padding-bottom: 15px;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
   }
 }
 .formulario .form #email {
@@ -217,15 +217,15 @@
   padding: 18px;
   width: 500px;
   font-size: 16px;
-  font-size: 20;
+  font-size: 20px;
   color: white;
   border: 3px solid white;
   background-color: transparent;
 }
 @media (max-width: 768px) {
   .formulario .form #email {
-    width: 250px;
-    padding: 9px;
+    width: 90%;
+    padding: 18px;
     display: block;
     margin-bottom: 8px;
   }
@@ -241,8 +241,8 @@
 }
 @media (max-width: 768px) {
   .formulario .form button {
-    padding: 10px;
-    font-size: 13px;
+    width: 90%;
+    font-size: 20px;
   }
 }
 .formulario .form__text {
@@ -260,8 +260,8 @@
 @media (max-width: 768px) {
   .footer {
     text-align: center;
-    margin-left: 0;
-    text-align: center;
+    padding-left: 0;
+    align-items: center;
     padding-bottom: 40px;
   }
 }
@@ -269,11 +269,12 @@
   color: rgba(255, 255, 255, 0.56);
   text-align: normal;
   font-size: 18px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05rem;
 }
 @media (max-width: 768px) {
   .footer__text {
-    font-size: 10px;
+    font-size: 18px;
+    padding: 0 24px;
   }
 }
 .footer__text a {
@@ -387,11 +388,11 @@ body {
 }
 @media (max-width: 768px) {
   .header__container {
-    top: 10%;
-    left: 10%;
-    letter-spacing: 1px;
-    padding-left: 20px;
-    border-left: 2px solid white;
+    top: 50px;
+    left: center;
+    letter-spacing: 2px;
+    padding-left: 0;
+    border-left: none;
   }
 }
 .header__container .button {
@@ -400,6 +401,7 @@ body {
   padding: 15px 70px;
   border-radius: 5px;
   text-decoration: none;
+  background-color: red;
 }
 @media (max-width: 768px) {
   .header__container .button {
@@ -416,7 +418,7 @@ body {
 }
 @media (max-width: 768px) {
   .header__title {
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 8px;
   }
 }
@@ -430,9 +432,9 @@ body {
 }
 @media (max-width: 768px) {
   .header__text {
-    width: 35%;
-    font-size: 9px;
-    line-height: 0.6rem;
+    width: 350px;
+    font-size: 12px;
+    line-height: 1rem;
     margin-bottom: 25px;
   }
 }
