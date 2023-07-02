@@ -1,0 +1,22 @@
+.sobreDono{
+  margin-left: 18%;
+  padding-bottom: 100px;
+  text-align: center;
+  img{
+    width: 30%;
+    
+  }
+  &__title{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  &__text{
+    color: white;
+  font-size: 18px;
+  margin: 30px auto;
+  width: 400px;
+  text-align: justify;
+  }
+}

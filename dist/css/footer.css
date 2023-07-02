@@ -1,12 +1,25 @@
 .footer {
   padding: 0px 0px 80px;
-  margin-left: 18%;
+  padding-left: 18%;
+}
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+    margin-left: 0;
+    text-align: center;
+    padding-bottom: 40px;
+  }
 }
 .footer__text {
   color: rgba(255, 255, 255, 0.56);
   text-align: normal;
   font-size: 18px;
   letter-spacing: 0.05em;
+}
+@media (max-width: 768px) {
+  .footer__text {
+    font-size: 10px;
+  }
 }
 .footer__text a {
   color: rgba(255, 255, 255, 0.56);

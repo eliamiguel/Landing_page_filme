@@ -1,0 +1,38 @@
+@use 'variaveis';
+
+body{
+  height: 100vh;
+}
+.sectionVideo{
+  height: 100vh;
+  display: flex;
+  padding-top: 30px;
+  
+  &__container{
+    width: 40%;
+    height: 80%;
+    padding-left: 40px;
+    
+    overflow-y: scroll;
+    margin-right: 30px;
+    &__text{
+      color:variaveis.$cordDosTextos;
+      margin-bottom: 15px;
+      font-size: 15px;
+      padding-right: 20px;
+      text-align: justify;
+      line-height: 2em;
+      letter-spacing: 2px;
+    }
+    &__title{
+      font-size: 35px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      color: variaveis.$cordDosTextos;
+    }
+  }
+}
+iframe{
+  width: 50%;
+  height: 80%;
+}

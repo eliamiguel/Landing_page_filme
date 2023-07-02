@@ -1,11 +1,22 @@
 .footer{
   padding: 0px 0px 80px;
-  margin-left: 18%;
+  padding-left: 18%;
+  @media (max-width:768px){
+  text-align: center;
+  margin-left: 0;
+  text-align:center ;
+   padding-bottom: 40px;
+
+  }
   &__text{
     color: rgba(255, 255, 255, 0.56);
     text-align: normal;
     font-size:18px;
     letter-spacing: 0.05em;
+    @media (max-width:768px){
+      font-size: 10px;
+
+    }
     a{
       color:rgba(255, 255, 255, 0.56) ;
       margin-left: 5px;
