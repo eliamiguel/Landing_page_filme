@@ -70,3 +70,11 @@
   letter-spacing: 2px;
   line-height: 2em;
 }
+@media (max-width: 768px) {
+  .formulario .form__text {
+    font-size: 13px;
+    width: 250px;
+    letter-spacing: 1px;
+    line-height: 1em;
+  }
+}
