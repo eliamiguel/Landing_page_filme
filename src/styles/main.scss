@@ -23,6 +23,8 @@ text-align: none;
 
 .header{
   position: relative;
+
+  
   
   
 span{
@@ -37,10 +39,12 @@ padding-bottom: 30px;
 }
 &__img{
   width: 100%;
+  
   img {
     width: 100%;
     @media (max-width:768px){
       width: 100%;
+      
             
     }
     }
@@ -55,7 +59,7 @@ padding-bottom: 30px;
     width: 700px;
     letter-spacing: 2px;
     @media (max-width:768px){
-      top: 50px;
+      top: 10px;
       left: center;
       letter-spacing: 2px;
       padding-left: 0;
@@ -87,7 +91,7 @@ padding-bottom: 30px;
 font-size: 72px;
 color: variaveis.$cordDosTextos;
 @media (max-width:768px){
-  font-size: 40px;
+  font-size: 30px;
   padding-bottom: 8px;
         
 }
@@ -101,10 +105,10 @@ width: 80%;
 text-align: justify;
 margin-bottom: 40px;
 @media (max-width:768px){
-  width: 350px;
-  font-size: 12px;
-  line-height: 1rem;
-  margin-bottom: 25px;
+  width: 250px;
+  font-size: 10px;
+  line-height: 1em;
+  margin-bottom: 20px;
 }
 }
 }

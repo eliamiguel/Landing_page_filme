@@ -26,8 +26,7 @@
 }
 @media (max-width: 768px) {
   .formulario .form__email {
-    font-size: 50px;
-    text-align: center;
+    font-size: 45px;
     padding-bottom: 20px;
   }
 }
@@ -44,7 +43,7 @@
 @media (max-width: 768px) {
   .formulario .form #email {
     width: 90%;
-    padding: 18px;
+    padding: 13px;
     display: block;
     margin-bottom: 8px;
   }
@@ -61,7 +60,7 @@
 @media (max-width: 768px) {
   .formulario .form button {
     width: 90%;
-    font-size: 20px;
+    font-size: 13px;
   }
 }
 .formulario .form__text {
