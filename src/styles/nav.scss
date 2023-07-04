@@ -1,0 +1,47 @@
+@use 'variaveis';
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.142);
+  
+  
+  img{
+    width: 150px;
+    height: 70px;
+    @media (max-width:768px){
+      height: 55px;
+    
+      
+            
+    }
+  }
+  &__list{
+
+    &__item{
+      display: inline;
+      margin: 0 10px;
+      font-size: 21px;
+      color: variaveis.$cordDosTextos;
+      padding-right: 30px;
+      cursor: pointer;
+      background-color: red;
+      border-radius: 8px;
+      border: none;
+      padding: 12px;
+      &:hover{
+        background-color: rgba(255, 0, 0, 0.533);
+      }
+      a{
+        color: variaveis.$cordDosTextos;
+      }
+      @media (max-width:768px){
+        margin-top: 10px;
+        font-size: 15px;
+        
+              
+      }
+    }
+  }
+
+}
