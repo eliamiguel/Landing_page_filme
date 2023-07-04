@@ -331,7 +331,7 @@ body {
 }
 
 iframe {
-  width: 50%;
+  width: 60%;
   height: 80%;
 }
 @media (max-width: 768px) {
@@ -434,6 +434,12 @@ body {
     letter-spacing: 2px;
     padding-left: 0;
     border-left: none;
+  }
+}
+@media (max-width: 992px) {
+  .header__container {
+    top: 10%;
+    left: 18%;
   }
 }
 .header__container .button {
