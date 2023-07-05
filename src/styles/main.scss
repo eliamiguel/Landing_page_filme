@@ -33,7 +33,12 @@ text-decoration: none;
     }
   
   
-
+    &__title1{
+      text-align: center;
+      color: variaveis.$cordDosTextos ;
+      font-size: 30px;
+      padding-top: 20%;
+    }
   
   
   
@@ -110,6 +115,7 @@ color: variaveis.$cordDosTextos;
 }
 
 }
+
 &__text{
 font-size: 18px;
 line-height: 1.7rem;
@@ -124,6 +130,8 @@ margin-bottom: 40px;
   margin-bottom: 20px;
 }
 }
+
+
 }
 
 
