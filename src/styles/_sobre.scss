@@ -1,0 +1,27 @@
+@use 'variaveis';
+.sobre{
+  padding: 30px;
+  &__container{
+    text-align: center;
+    letter-spacing: 1px;
+    &__title{
+      color: variaveis.$corDosTextos ;
+      font-size: 25px;
+      padding: 30px 0;
+      
+      span{
+        padding-bottom: 9px;
+        border-bottom: 3px solid variaveis.$corDosTextos;
+      }
+    }
+    &__text{
+      color: variaveis.$corDosTextosNemosfoque;
+    }
+    a{
+      color:variaveis.$corDosBotaos ;
+      padding: 20px;
+      font-size: 20px;
+    }
+  }
+  
+}

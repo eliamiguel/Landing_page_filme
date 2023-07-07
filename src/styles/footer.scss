@@ -1,0 +1,22 @@
+@use 'variaveis';
+.footer{
+  width: 100%;
+  padding: 30px 30px;
+  text-align: center;
+  &__list{
+    width: 90%;
+    margin: auto;
+    &__item{
+      display: inline;
+      margin: 5px 5px;
+     a{
+      
+      color:variaveis.$corDosTextosNemosfoque;
+     }
+    }
+  }
+  &__text{
+    color:variaveis.$corDosTextosNemosfoque;
+    padding-bottom: 5px;
+  }
+}

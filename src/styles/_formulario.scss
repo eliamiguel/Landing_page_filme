@@ -1,0 +1,32 @@
+@use 'variaveis';
+
+.formulario{
+  width: 100%;
+  padding: 40px  0;
+  background-color: variaveis.$corDeFundo;
+
+  &__container{
+    text-align: center;
+
+    &__email{
+      font-size: 50px;
+      color: variaveis.$corDosTextos;
+
+      
+    }
+    #input_email, button{
+      margin: 15px auto;
+      width: 85%;
+      padding: 25px;
+      font-size: 23px;
+      display: block;
+      border: 2px solid variaveis.$corDosTextos;
+      background-color: transparent;
+      color: variaveis.$corDosTextos;
+
+    }
+    button{
+      cursor: pointer;
+   }
+  }
+}

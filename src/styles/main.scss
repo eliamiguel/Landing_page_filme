@@ -1,137 +1,41 @@
-@use 'nav';
-@use 'variaveis';
-@use 'lancamentos';
-@use 'sobre';
-@use 'section';
-@use 'form';
-@use 'footer';
-@use 'pagina2';
-@use 'dono';
+  @use 'variaveis';
+  @use 'header';
+  @use 'nav';
+  @use 'lancamentos';
+  @use 'sobre';
+  @use 'section';
+  @use 'footer';
+  @use 'formulario';
 
-body, html{
-  width: 100%;
-  
-  background-color: variaveis.$cordDeFundo;
-}
-
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Belanosima', sans-serif;
-text-decoration: none;
-
-}
-
-.header{
-  height:100%;
-  
-  @media (max-width:768px){
-    height: 100%;
-    height: 80vh;
-        
-    }
-  
-  
-    &__title1{
-      text-align: center;
-      color: variaveis.$cordDosTextos ;
-      font-size: 30px;
-      padding-top: 20%;
-    }
-  
-  
-  
-span{
-color: #ffffffcf;
-font-size: 18px;
-padding-bottom: 30px;
-@media (max-width:768px){
-font-size: 16px;
-    
-}
-}
-&__img{
-  width: 100%;
-  
-img {
-  width: 100%;
-    @media (max-width:768px){
-      width: 100%;
-      
-            
-    }
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Belanosima', sans-serif;
+  text-decoration: none;
+  list-style: none;
   }
+  body, html{
+  width: 100%;
+  height: 100vw;
+  }
+  ::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+  }
+  .container{
+    background-color: variaveis.$corDeFundo;
+
 
   }
-  &__container{
-    border-left: 4px solid variaveis.$cordDosTextos;
-    padding-left: 60px;
-    width: 700px;
-    letter-spacing: 2px;
-    margin-left: 19%;
-    margin-top: 10%;
-    
-  @media (max-width:768px){
-    width: 650px;
-    margin-left: 15%;
-    margin-top: 18%;
-      letter-spacing: 2px;
-      padding-left: 16px;
-      border-left: none;
-      
-    }
-    @media (max-width:375px){
-      margin-left: 7%;
-      width: 470px;
-    }
-
-    .button {
-      font-size: 20px;
-      color: variaveis.$cordDosTextos;
-      padding: 15px 70px;
-      border-radius: 5px;
-      text-decoration: none;
-      background-color: red;
-      @media (max-width:768px){
-        padding: 10px 30px;
-        font-size: 18px;
-
-      }
-      &:hover{
-        background-color: rgba(0, 0, 0, 0.424);
-      }
-    }
+  .button{
+  background-color:  variaveis.$corDosBotaos;
   }
-
-&__title{
-font-size: 72px;
-color: variaveis.$cordDosTextos;
-@media (max-width:768px){
-  font-size: 40px;
-  padding-bottom: 20px;
-  padding-top: 10px;
-        
-}
-
-}
-
-&__text{
-font-size: 18px;
-line-height: 1.7rem;
-color: rgba(255, 255, 255, 0.825);
-width: 80%;
-text-align: justify;
-margin-bottom: 40px;
-@media (max-width:768px){
-  width:60%;
-  font-size: 18px;
-  line-height: 1em;
-  margin-bottom: 20px;
-}
-}
-
-
-}
+  .material-symbols-outlined{
+    width: 100;
+    background-color: transparent;
+    border: none;
+    color:variaveis.$corDosTextos ;
+  }
 
 

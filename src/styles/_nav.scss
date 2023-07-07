@@ -1,0 +1,26 @@
+@use 'variaveis';
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  img{
+    height: 50px;
+  }
+  &__list{
+    padding-right: 18px;
+    &__item{
+      display: inline;
+      margin-left: 10px;
+      font-size: 12px;
+      background-color:  variaveis.$corDosBotaos;
+      padding: 10px;
+      border-radius: 8px;
+      a{
+        color: variaveis.$corDosTextos;
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,34 @@
+  @use 'variaveis';
+.section{
+  background-color: variaveis.$corDeFundo;
+
+  width: 100%;
+  position: relative;
+  &__images{
+    img{
+      width: 100%;
+    }
+  }
+  &__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    a{
+      color:variaveis.$corDosTextos;
+      text-decoration: underline;
+      &:hover{
+        color:variaveis.$corDosTextosNemosfoque;
+      }
+      span{
+        font-size: 21px;
+        &:hover{
+          color:variaveis.$corDosTextosNemosfoque;
+          
+        }
+      }
+    }
+  }
+  
+}
