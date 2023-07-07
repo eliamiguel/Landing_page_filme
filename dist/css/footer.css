@@ -1,7 +1,8 @@
 .footer {
   width: 100%;
-  padding: 30px 30px;
+  padding: 100px 30px 30px;
   text-align: center;
+  background-color: #0F0F0F;
 }
 .footer__list {
   width: 90%;

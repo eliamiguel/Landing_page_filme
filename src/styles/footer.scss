@@ -1,8 +1,10 @@
 @use 'variaveis';
 .footer{
   width: 100%;
-  padding: 30px 30px;
+  padding: 100px 30px 30px;
   text-align: center;
+  background-color: variaveis.$corDeFundo;
+
   &__list{
     width: 90%;
     margin: auto;

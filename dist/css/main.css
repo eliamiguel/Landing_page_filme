@@ -32,6 +32,8 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.341);
+  padding-bottom: 8px;
   align-items: center;
   width: 100%;
 }
@@ -73,6 +75,7 @@
 }
 .lancamentos__container__list__item img {
   width: 308px;
+  border-radius: 8px;
 }
 
 .sobre {
@@ -131,8 +134,9 @@
 
 .footer {
   width: 100%;
-  padding: 30px 30px;
+  padding: 100px 30px 30px;
   text-align: center;
+  background-color: #0F0F0F;
 }
 .footer__list {
   width: 90%;
@@ -174,6 +178,69 @@
 }
 .formulario__container button {
   cursor: pointer;
+}
+
+.sectionVideo {
+  padding: 40px 0px;
+}
+.sectionVideo iframe {
+  width: 100%;
+  height: 80vh;
+  display: block;
+  padding-bottom: 18px;
+}
+.sectionVideo__container__title {
+  padding: 25px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.sectionVideo__container__text {
+  color: rgba(255, 255, 255, 0.597);
+  text-align: justify;
+  padding: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+body {
+  font-family: "Belanosima", sans-serif;
+  background-color: #0F0F0F;
+}
+
+.producao {
+  padding-top: 30px;
+}
+.producao__container {
+  text-align: center;
+  padding: 20px;
+}
+.producao__container__title {
+  color: white;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+.producao__container__text {
+  color: rgba(255, 255, 255, 0.597);
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.producao__container img {
+  width: 270px;
+  padding: 30px 0;
+}
+
+.filmes {
+  width: 100%;
+  height: 70vh;
+}
+.filmes__text {
+  color: white;
+  margin-top: 30%;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.5rem;
 }
 
 * {

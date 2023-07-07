@@ -1,0 +1,29 @@
+@use 'variaveis';
+body{
+  font-family: 'Belanosima', sans-serif;
+  background-color: variaveis.$corDeFundo;
+}
+.producao{
+  padding-top: 30px;
+  &__container{
+    text-align: center;
+    padding: 20px;
+    &__title{
+      color: variaveis.$corDosTextos;
+      padding-bottom: 20px;
+      font-size: 28px;
+    }
+    &__text{
+      color: variaveis.$corDosTextosNemosfoque;
+      letter-spacing: 1px;
+      text-align: justify;
+      line-height: 1.5em;
+
+    }
+    img{
+      width: 270px;
+      padding: 30px 0;
+    }
+  }
+
+}
