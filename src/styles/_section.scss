@@ -15,6 +15,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 21px;
+    
     a{
       color:variaveis.$corDosTextos;
       text-decoration: underline;
@@ -22,12 +23,17 @@
         color:variaveis.$corDosTextosNemosfoque;
       }
       span{
-        font-size: 21px;
+        font-size: 22px;
         &:hover{
           color:variaveis.$corDosTextosNemosfoque;
           
         }
+        @media (min-width:768px) and (max-width:992px){
+          font-size: 45px;
+          padding-left: 5px;
+        }
       }
+      
     }
   }
   

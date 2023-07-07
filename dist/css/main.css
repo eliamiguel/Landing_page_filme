@@ -5,17 +5,49 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 65vh;
+  height: 70vh;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .header {
+    height: 90vh;
+  }
+}
+.header span {
+  color: rgba(255, 255, 255, 0.645);
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .header span {
+    font-size: 20px;
+  }
 }
 .header__container {
-  margin-top: 70px;
+  margin-top: 40px;
   text-align: center;
   letter-spacing: 1px;
   color: white;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .header__container {
+    margin-top: 70px;
+    text-align: left;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+    width: 700px;
+    margin-left: 17%;
+    border-left: 4px solid white;
+    padding-left: 30px;
+    padding-top: 0;
+  }
+}
 .header__container__title {
   font-size: 30px;
   padding: 18px 0;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .header__container__title {
+    font-size: 65px;
+    margin: 20px;
+  }
 }
 .header__container__text {
   margin: auto;
@@ -23,10 +55,23 @@
   width: 80%;
   margin-bottom: 20px;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .header__container__text {
+    margin: 0;
+    font-size: 20;
+    padding-bottom: 40px;
+  }
+}
 .header__container .button {
   padding: 10px;
   border-radius: 8px;
   color: white;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .header__container .button {
+    font-size: 19px;
+    padding: 19px;
+  }
 }
 
 .nav {
@@ -40,6 +85,11 @@
 .nav img {
   height: 50px;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .nav img {
+    height: 70px;
+  }
+}
 .nav__list {
   padding-right: 18px;
 }
@@ -50,6 +100,11 @@
   background-color: red;
   padding: 10px;
   border-radius: 8px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .nav__list__item {
+    font-size: 20px;
+  }
 }
 .nav__list__item a {
   color: white;
@@ -62,6 +117,12 @@
   color: white;
   font-size: 18px;
   padding: 30px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .lancamentos__container__filmes {
+    font-size: 30px;
+    padding: 50px;
+  }
 }
 .lancamentos__container__filmes a {
   color: red;
@@ -87,7 +148,7 @@
     width: 100%;
   }
 }
-@media (max-width: 1082) {
+@media (max-width: 1082px) {
   .lancamentos__container__list__item img {
     width: 100%;
   }
@@ -110,17 +171,41 @@
   font-size: 25px;
   padding: 30px 0;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .sobre__container__title {
+    font-size: 60px;
+    padding: 50px 0;
+  }
+}
 .sobre__container__title span {
   padding-bottom: 9px;
   border-bottom: 3px solid white;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .sobre__container__title span {
+    border-bottom: 4px solid white;
+  }
+}
 .sobre__container__text {
-  color: rgba(255, 255, 255, 0.597);
+  color: rgba(255, 255, 255, 0.645);
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .sobre__container__text {
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+  }
 }
 .sobre__container a {
   color: red;
   padding: 20px;
   font-size: 20px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .sobre__container a {
+    font-size: 30px;
+    padding: 50px;
+  }
 }
 
 .section {
@@ -143,51 +228,103 @@
   text-decoration: underline;
 }
 .section__text a:hover {
-  color: rgba(255, 255, 255, 0.597);
+  color: rgba(255, 255, 255, 0.645);
 }
 .section__text a span {
-  font-size: 21px;
+  font-size: 22px;
 }
 .section__text a span:hover {
-  color: rgba(255, 255, 255, 0.597);
+  color: rgba(255, 255, 255, 0.645);
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .section__text a span {
+    font-size: 45px;
+    padding-left: 5px;
+  }
 }
 
 .footer {
   width: 100%;
-  padding: 80% 30px 30px;
+}
+.footer__container {
+  width: 100%;
+  padding: 40% 30px 30px;
   text-align: center;
   background-color: #0F0F0F;
 }
-.footer__list {
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer__container {
+    padding: 70PX 0px 40%;
+    text-align: left;
+    display: flex;
+    margin-left: 18%;
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+}
+.footer__container__list {
   width: 90%;
   margin: auto;
 }
-.footer__list__item {
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer__container__list {
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+.footer__container__list__item {
   display: inline;
   margin: 5px 5px;
 }
-.footer__list__item a {
-  color: rgba(255, 255, 255, 0.597);
+.footer__container__list__item a {
+  color: rgba(255, 255, 255, 0.645);
 }
-.footer__text {
-  color: rgba(255, 255, 255, 0.597);
+.footer__container__text {
+  color: rgba(255, 255, 255, 0.645);
   padding-bottom: 5px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer__container__text {
+    font-size: 18px;
+  }
 }
 
 .formulario {
   width: 100%;
-  padding: 40px 0;
+  padding: 20px 0;
   background-color: #0F0F0F;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .formulario {
+    margin-top: 100px;
+  }
 }
 .formulario__container {
   text-align: center;
+  padding-top: 50px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .formulario__container {
+    text-align: left;
+    margin-left: 17%;
+    border-left: 3px solid white;
+    padding-left: 30px;
+    padding-top: 0;
+  }
 }
 .formulario__container__email {
   font-size: 50px;
   color: white;
+  padding-bottom: 40px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .formulario__container__email {
+    font-size: 70PX;
+  }
 }
 .formulario__container #input_email, .formulario__container button {
-  margin: 15px auto;
+  margin: auto;
   width: 85%;
   padding: 25px;
   font-size: 23px;
@@ -196,8 +333,29 @@
   background-color: transparent;
   color: white;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .formulario__container #input_email, .formulario__container button {
+    display: inline;
+  }
+}
+.formulario__container #input_email {
+  margin-top: 30px;
+  outline-color: white;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .formulario__container #input_email {
+    width: 65%;
+  }
+}
 .formulario__container button {
+  margin-top: 15px;
   cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .formulario__container button {
+    width: 25%;
+    font-size: 21, 5px;
+  }
 }
 
 .sectionVideo {
@@ -216,7 +374,7 @@
   text-align: center;
 }
 .sectionVideo__container__text {
-  color: rgba(255, 255, 255, 0.597);
+  color: rgba(255, 255, 255, 0.645);
   text-align: justify;
   padding: 20px;
   letter-spacing: 1px;
@@ -241,7 +399,7 @@ body {
   font-size: 28px;
 }
 .producao__container__text {
-  color: rgba(255, 255, 255, 0.597);
+  color: rgba(255, 255, 255, 0.645);
   letter-spacing: 1px;
   text-align: justify;
   line-height: 1.5em;

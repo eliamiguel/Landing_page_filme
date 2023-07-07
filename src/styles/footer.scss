@@ -1,24 +1,41 @@
 @use 'variaveis';
 .footer{
   width: 100%;
-  padding: 80% 30px 30px;
+  &__container{
+  width: 100%;
+  padding: 40% 30px 30px;
   text-align: center;
   background-color: variaveis.$corDeFundo;
-
+  @media (min-width:768px) and (max-width:992px){
+    padding: 70PX 0px 40%;
+    text-align: left;
+    display: flex;
+      margin-left: 18%;
+      padding-left: 30px;
+      padding-top: 50px;
+  }
   &__list{
     width: 90%;
     margin: auto;
+    @media (min-width:768px) and (max-width:992px){
+      margin: 0;
+      width: 100%;
+      font-size: 20px;
+    }
     &__item{
       display: inline;
       margin: 5px 5px;
-     a{
-      
+    a{
       color:variaveis.$corDosTextosNemosfoque;
-     }
+    }
     }
   }
   &__text{
     color:variaveis.$corDosTextosNemosfoque;
     padding-bottom: 5px;
+    @media (min-width:768px) and (max-width:992px){
+      font-size: 18px;
+    }
   }
+}
 }

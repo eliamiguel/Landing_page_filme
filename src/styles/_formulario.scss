@@ -2,20 +2,35 @@
 
 .formulario{
   width: 100%;
-  padding: 40px  0;
+  padding: 20px  0;
   background-color: variaveis.$corDeFundo;
+  @media (min-width:768px) and (max-width:992px){
+    margin-top: 100px;
+  }
+
 
   &__container{
     text-align: center;
+    padding-top: 50px;
+    @media (min-width:768px) and (max-width:992px){
+      text-align: left;
+      margin-left: 17%;
+      border-left: 3px solid variaveis.$corDosTextos;
+      padding-left: 30px;
+      padding-top: 0;
+    }
 
     &__email{
       font-size: 50px;
       color: variaveis.$corDosTextos;
-
+      padding-bottom: 40px;
+      @media (min-width:768px) and (max-width:992px){
+          font-size: 70PX;
+      }
       
     }
     #input_email, button{
-      margin: 15px auto;
+     margin: auto;
       width: 85%;
       padding: 25px;
       font-size: 23px;
@@ -23,10 +38,25 @@
       border: 2px solid variaveis.$corDosTextos;
       background-color: transparent;
       color: variaveis.$corDosTextos;
-
+      @media (min-width:768px) and (max-width:992px){
+        display: inline;
+        
+      }
+    }
+    #input_email{
+        margin-top: 30px;
+        outline-color:variaveis.$corDosTextos ;
+        @media (min-width:768px) and (max-width:992px){
+          width: 65%;
+        }
     }
     button{
+      margin-top: 15px;
       cursor: pointer;
+      @media (min-width:768px) and (max-width:992px){
+        width: 25%;
+        font-size: 21,5px;
+      }
    }
   }
 }

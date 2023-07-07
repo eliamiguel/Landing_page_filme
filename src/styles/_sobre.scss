@@ -8,19 +8,38 @@
       color: variaveis.$corDosTextos ;
       font-size: 25px;
       padding: 30px 0;
-      
+      @media (min-width:768px) and (max-width:992px){
+        font-size: 60px;
+        padding: 50px 0;
+      }
       span{
         padding-bottom: 9px;
         border-bottom: 3px solid variaveis.$corDosTextos;
+        @media (min-width:768px) and (max-width:992px){
+          border-bottom: 4px solid variaveis.$corDosTextos;
+
+        }
       }
     }
     &__text{
       color: variaveis.$corDosTextosNemosfoque;
+      @media (min-width:768px) and (max-width:992px){
+        font-size: 20px;
+        letter-spacing: .8px;
+      line-height: 1.5em;
+
+      }
+
     }
     a{
       color:variaveis.$corDosBotaos ;
       padding: 20px;
       font-size: 20px;
+      @media (min-width:768px) and (max-width:992px){
+        font-size: 30px;
+        padding: 50px;
+        
+      }
     }
   }
   
