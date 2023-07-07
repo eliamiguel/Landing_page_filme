@@ -74,8 +74,28 @@
   padding-left: 8px;
 }
 .lancamentos__container__list__item img {
-  width: 308px;
+  width: 100%;
   border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .lancamentos__container__list__item img {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .lancamentos__container__list__item img {
+    width: 100%;
+  }
+}
+@media (max-width: 1082) {
+  .lancamentos__container__list__item img {
+    width: 100%;
+  }
+}
+@media (max-width: 1515) {
+  .lancamentos__container__list__item img {
+    width: 100%;
+  }
 }
 
 .sobre {
@@ -134,7 +154,7 @@
 
 .footer {
   width: 100%;
-  padding: 100px 30px 30px;
+  padding: 80% 30px 30px;
   text-align: center;
   background-color: #0F0F0F;
 }
@@ -225,6 +245,16 @@ body {
   letter-spacing: 1px;
   text-align: justify;
   line-height: 1.5em;
+}
+.producao__container__title1 {
+  color: white;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.producao__container__title2 {
+  color: white;
+  font-size: 16px;
+  padding-bottom: 20px;
 }
 .producao__container img {
   width: 270px;
