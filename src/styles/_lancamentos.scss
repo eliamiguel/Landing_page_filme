@@ -9,6 +9,10 @@
     font-size: 30px;
     padding: 50px;
     }
+    @media (min-width:993px) and (max-width:1600px){
+      font-size: 40px;
+    padding: 70px;
+    }
     a{
       color:variaveis.$corDosBotaos ;
     }

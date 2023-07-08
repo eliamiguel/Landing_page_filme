@@ -8,27 +8,68 @@ body{
   &__container{
     text-align: center;
     padding: 20px;
+    @media (min-width:768px) and (max-width:992px){
+      width:700px ;
+      margin: auto;
+    }
+    @media (min-width:993px) and (max-width:1600px){
+      width:750px ;
+      margin: auto;
+    }
     &__title{
       color: variaveis.$corDosTextos;
       padding-bottom: 20px;
       font-size: 28px;
+      @media (min-width:768px) and (max-width:992px){
+        padding-bottom: 40px;
+        font-size:40px;
+      }
+      @media (min-width:993px) and (max-width:1600px){
+        padding-bottom: 60px;
+        font-size:50px;
+      }
     }
     &__text{
       color: variaveis.$corDosTextosNemosfoque;
       letter-spacing: 1px;
       text-align: justify;
       line-height: 1.5em;
+      
+      @media (min-width:768px) and (max-width:992px){
+        letter-spacing: 2px;
+      line-height: 2em;
+      font-size: 22px;
+      }
+      @media (min-width:993px) and (max-width:1600px){
+        letter-spacing: 2px;
+      line-height: 2em;
+      font-size: 23px;
+      }
 
     }
     &__title1{
       color: variaveis.$corDosTextos;
       padding-bottom: 10px;
       font-size: 20px;
+      @media (min-width:768px) and (max-width:992px){
+        font-size:25px;
+      }
+      @media (min-width:993px) and (max-width:1600px){
+        font-size:27px;
+      }
     }
     &__title2{
       color: variaveis.$corDosTextos;
       font-size: 16px;
       padding-bottom: 20px;
+      @media (min-width:768px) and (max-width:992px){
+        padding-bottom: 50px;
+        font-size:20px;
+      }
+      @media (min-width:993px) and (max-width:1600px){
+        padding-bottom: 50px;
+        font-size:21px;
+      }
       
     }
     img{

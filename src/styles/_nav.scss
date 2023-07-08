@@ -12,6 +12,9 @@
     @media (min-width:768px) and (max-width:992px){
       height: 70px;
     }
+    @media (min-width:993px) and (max-width:1600px){
+      height: 80px;
+    }
   }
   &__list{
     padding-right: 18px;
@@ -24,6 +27,9 @@
       border-radius: 8px;
       @media (min-width:768px) and (max-width:992px){
         font-size: 20px;
+      }
+      @media (min-width:993px) and (max-width:1600px){
+        font-size: 30px;
       }
       a{
         color: variaveis.$corDosTextos;

@@ -11,13 +11,20 @@
       @media (min-width:768px) and (max-width:992px){
         font-size: 60px;
         padding: 50px 0;
+        
+      }
+      @media (min-width:993px) and (max-width:1600px){
+        font-size: 70px;
+        padding: 60px;
       }
       span{
         padding-bottom: 9px;
         border-bottom: 3px solid variaveis.$corDosTextos;
         @media (min-width:768px) and (max-width:992px){
           border-bottom: 4px solid variaveis.$corDosTextos;
-
+        }
+        @media (min-width:993px) and (max-width:1600px){
+          border-bottom: 5px solid variaveis.$corDosTextos;
         }
       }
     }
@@ -27,7 +34,13 @@
         font-size: 20px;
         letter-spacing: .8px;
       line-height: 1.5em;
-
+      }
+      @media (min-width:993px) and (max-width:1600px){
+        width: 800px;
+        margin: auto;
+        font-size: 25px;
+        letter-spacing: .8px;
+      line-height: 1.5em;
       }
 
     }
@@ -39,6 +52,10 @@
         font-size: 30px;
         padding: 50px;
         
+      }
+      @media (min-width:993px) and (max-width:1600px){
+        padding: 50px;
+        font-size: 35px;
       }
     }
   }
