@@ -340,7 +340,7 @@
 }
 .section__text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 21px;
@@ -370,13 +370,94 @@
     padding-left: 5px;
   }
 }
+.section__filmes {
+  position: absolute;
+  bottom: 3%;
+  left: 45%;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(242, 12, 12, 0.438);
+}
+.section__filmes:hover {
+  background-color: red;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .section__filmes {
+    font-size: 25px;
+    padding: 15px 30px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1600px) {
+  .section__filmes {
+    padding: 20px 50px;
+    font-size: 25px;
+  }
+}
+.section__filmes #filmes {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.active {
+  display: none;
+}
+
+.mais__filmes {
+  padding-top: 50px;
+}
+.mais__filmes__list {
+  display: flex;
+}
+.mais__filmes__list__item {
+  width: 100%;
+  display: block;
+  padding-left: 8px;
+}
+.mais__filmes__list__item a {
+  width: 100%;
+}
+.mais__filmes__list__item img {
+  width: 100%;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .mais__filmes__list__item img {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .mais__filmes__list__item img {
+    width: 100%;
+  }
+}
+@media (max-width: 1082px) {
+  .mais__filmes__list__item img {
+    width: 100%;
+  }
+}
+@media (max-width: 1515) {
+  .mais__filmes__list__item img {
+    width: 100%;
+  }
+}
 
 .footer {
+  width: 100%;
   width: 100%;
 }
 @media (min-width: 993px) and (max-width: 1600px) {
   .footer {
     padding-top: 50px;
+    width: 100%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1600px) {
+  .footer {
+    width: 100%;
   }
 }
 .footer__container {
@@ -425,7 +506,8 @@
 }
 .footer__container__list__item {
   display: inline;
-  margin: 5px 5px;
+  margin: 5px 0;
+  padding-left: 5px;
 }
 .footer__container__list__item a {
   color: rgba(255, 255, 255, 0.645);
@@ -436,7 +518,7 @@
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .footer__container__text {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (min-width: 993px) and (max-width: 1600px) {

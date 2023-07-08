@@ -1,9 +1,16 @@
 .footer {
   width: 100%;
+  width: 100%;
 }
 @media (min-width: 993px) and (max-width: 1600px) {
   .footer {
     padding-top: 50px;
+    width: 100%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1600px) {
+  .footer {
+    width: 100%;
   }
 }
 .footer__container {
@@ -52,7 +59,8 @@
 }
 .footer__container__list__item {
   display: inline;
-  margin: 5px 5px;
+  margin: 5px 0;
+  padding-left: 5px;
 }
 .footer__container__list__item a {
   color: rgba(255, 255, 255, 0.645);
@@ -63,7 +71,7 @@
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .footer__container__text {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (min-width: 993px) and (max-width: 1600px) {
